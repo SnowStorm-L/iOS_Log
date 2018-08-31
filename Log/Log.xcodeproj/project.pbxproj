@@ -1,0 +1,464 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0B0C69A0213929B0001434B4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B0C699F213929B0001434B4 /* AppDelegate.m */; };
+		0B0C69A3213929B0001434B4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B0C69A2213929B0001434B4 /* ViewController.m */; };
+		0B0C69A6213929B0001434B4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0B0C69A4213929B0001434B4 /* Main.storyboard */; };
+		0B0C69A8213929B2001434B4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0B0C69A7213929B2001434B4 /* Assets.xcassets */; };
+		0B0C69AB213929B2001434B4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0B0C69A9213929B2001434B4 /* LaunchScreen.storyboard */; };
+		0B0C69AE213929B2001434B4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B0C69AD213929B2001434B4 /* main.m */; };
+		0B0C69B721392A53001434B4 /* SystemLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B0C69B621392A53001434B4 /* SystemLog.m */; };
+		0B0C69B921392C6B001434B4 /* NSLog_In_iPhone.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0B0C69B821392C6B001434B4 /* NSLog_In_iPhone.jpg */; };
+		0B0C69C721397C81001434B4 /* GCDWebServerResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B0C69BF21397C81001434B4 /* GCDWebServerResponse.m */; };
+		0B0C69C821397C81001434B4 /* GCDWebServerFunctions.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B0C69C021397C81001434B4 /* GCDWebServerFunctions.m */; };
+		0B0C69C921397C81001434B4 /* GCDWebServerRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B0C69C221397C81001434B4 /* GCDWebServerRequest.m */; };
+		0B0C69CA21397C81001434B4 /* GCDWebServer.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B0C69C421397C81001434B4 /* GCDWebServer.m */; };
+		0B0C69CB21397C81001434B4 /* GCDWebServerConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B0C69C521397C81001434B4 /* GCDWebServerConnection.m */; };
+		0B0C69D421397C8A001434B4 /* GCDWebServerDataRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B0C69CC21397C89001434B4 /* GCDWebServerDataRequest.m */; };
+		0B0C69D521397C8A001434B4 /* GCDWebServerFileRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B0C69D021397C89001434B4 /* GCDWebServerFileRequest.m */; };
+		0B0C69D621397C8A001434B4 /* GCDWebServerMultiPartFormRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B0C69D221397C89001434B4 /* GCDWebServerMultiPartFormRequest.m */; };
+		0B0C69D721397C8A001434B4 /* GCDWebServerURLEncodedFormRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B0C69D321397C8A001434B4 /* GCDWebServerURLEncodedFormRequest.m */; };
+		0B0C69E021397C92001434B4 /* GCDWebServerStreamedResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B0C69D921397C91001434B4 /* GCDWebServerStreamedResponse.m */; };
+		0B0C69E121397C92001434B4 /* GCDWebServerFileResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B0C69DB21397C91001434B4 /* GCDWebServerFileResponse.m */; };
+		0B0C69E221397C92001434B4 /* GCDWebServerErrorResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B0C69DD21397C91001434B4 /* GCDWebServerErrorResponse.m */; };
+		0B0C69E321397C92001434B4 /* GCDWebServerDataResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B0C69DE21397C91001434B4 /* GCDWebServerDataResponse.m */; };
+		0B0C69E721397EC8001434B4 /* HttpServerLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B0C69E621397EC8001434B4 /* HttpServerLogger.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0B0C699B213929B0001434B4 /* Log.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Log.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0B0C699E213929B0001434B4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0B0C699F213929B0001434B4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0B0C69A1213929B0001434B4 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		0B0C69A2213929B0001434B4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		0B0C69A5213929B0001434B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0B0C69A7213929B2001434B4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0B0C69AA213929B2001434B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0B0C69AC213929B2001434B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0B0C69AD213929B2001434B4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0B0C69B521392A53001434B4 /* SystemLog.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SystemLog.h; sourceTree = "<group>"; };
+		0B0C69B621392A53001434B4 /* SystemLog.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SystemLog.m; sourceTree = "<group>"; };
+		0B0C69B821392C6B001434B4 /* NSLog_In_iPhone.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = NSLog_In_iPhone.jpg; sourceTree = "<group>"; };
+		0B0C69BB21397C80001434B4 /* GCDWebServerPrivate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDWebServerPrivate.h; sourceTree = "<group>"; };
+		0B0C69BC21397C80001434B4 /* GCDWebServerRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDWebServerRequest.h; sourceTree = "<group>"; };
+		0B0C69BD21397C80001434B4 /* GCDWebServerHTTPStatusCodes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDWebServerHTTPStatusCodes.h; sourceTree = "<group>"; };
+		0B0C69BE21397C81001434B4 /* GCDWebServerResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDWebServerResponse.h; sourceTree = "<group>"; };
+		0B0C69BF21397C81001434B4 /* GCDWebServerResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDWebServerResponse.m; sourceTree = "<group>"; };
+		0B0C69C021397C81001434B4 /* GCDWebServerFunctions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDWebServerFunctions.m; sourceTree = "<group>"; };
+		0B0C69C121397C81001434B4 /* GCDWebServer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDWebServer.h; sourceTree = "<group>"; };
+		0B0C69C221397C81001434B4 /* GCDWebServerRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDWebServerRequest.m; sourceTree = "<group>"; };
+		0B0C69C321397C81001434B4 /* GCDWebServerConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDWebServerConnection.h; sourceTree = "<group>"; };
+		0B0C69C421397C81001434B4 /* GCDWebServer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDWebServer.m; sourceTree = "<group>"; };
+		0B0C69C521397C81001434B4 /* GCDWebServerConnection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDWebServerConnection.m; sourceTree = "<group>"; };
+		0B0C69C621397C81001434B4 /* GCDWebServerFunctions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDWebServerFunctions.h; sourceTree = "<group>"; };
+		0B0C69CC21397C89001434B4 /* GCDWebServerDataRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDWebServerDataRequest.m; sourceTree = "<group>"; };
+		0B0C69CD21397C89001434B4 /* GCDWebServerURLEncodedFormRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDWebServerURLEncodedFormRequest.h; sourceTree = "<group>"; };
+		0B0C69CE21397C89001434B4 /* GCDWebServerDataRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDWebServerDataRequest.h; sourceTree = "<group>"; };
+		0B0C69CF21397C89001434B4 /* GCDWebServerFileRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDWebServerFileRequest.h; sourceTree = "<group>"; };
+		0B0C69D021397C89001434B4 /* GCDWebServerFileRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDWebServerFileRequest.m; sourceTree = "<group>"; };
+		0B0C69D121397C89001434B4 /* GCDWebServerMultiPartFormRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDWebServerMultiPartFormRequest.h; sourceTree = "<group>"; };
+		0B0C69D221397C89001434B4 /* GCDWebServerMultiPartFormRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDWebServerMultiPartFormRequest.m; sourceTree = "<group>"; };
+		0B0C69D321397C8A001434B4 /* GCDWebServerURLEncodedFormRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDWebServerURLEncodedFormRequest.m; sourceTree = "<group>"; };
+		0B0C69D821397C91001434B4 /* GCDWebServerErrorResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDWebServerErrorResponse.h; sourceTree = "<group>"; };
+		0B0C69D921397C91001434B4 /* GCDWebServerStreamedResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDWebServerStreamedResponse.m; sourceTree = "<group>"; };
+		0B0C69DA21397C91001434B4 /* GCDWebServerFileResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDWebServerFileResponse.h; sourceTree = "<group>"; };
+		0B0C69DB21397C91001434B4 /* GCDWebServerFileResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDWebServerFileResponse.m; sourceTree = "<group>"; };
+		0B0C69DC21397C91001434B4 /* GCDWebServerStreamedResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDWebServerStreamedResponse.h; sourceTree = "<group>"; };
+		0B0C69DD21397C91001434B4 /* GCDWebServerErrorResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDWebServerErrorResponse.m; sourceTree = "<group>"; };
+		0B0C69DE21397C91001434B4 /* GCDWebServerDataResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDWebServerDataResponse.m; sourceTree = "<group>"; };
+		0B0C69DF21397C91001434B4 /* GCDWebServerDataResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDWebServerDataResponse.h; sourceTree = "<group>"; };
+		0B0C69E521397EC8001434B4 /* HttpServerLogger.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HttpServerLogger.h; sourceTree = "<group>"; };
+		0B0C69E621397EC8001434B4 /* HttpServerLogger.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HttpServerLogger.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0B0C6998213929B0001434B4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0B0C6992213929B0001434B4 = {
+			isa = PBXGroup;
+			children = (
+				0B0C699D213929B0001434B4 /* Log */,
+				0B0C699C213929B0001434B4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0B0C699C213929B0001434B4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0B0C699B213929B0001434B4 /* Log.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0B0C699D213929B0001434B4 /* Log */ = {
+			isa = PBXGroup;
+			children = (
+				0B0C69BA21397C57001434B4 /* GCDWebServer */,
+				0B0C69B421392A13001434B4 /* Log_BeforeiOS10 */,
+				0B0C699E213929B0001434B4 /* AppDelegate.h */,
+				0B0C699F213929B0001434B4 /* AppDelegate.m */,
+				0B0C69A1213929B0001434B4 /* ViewController.h */,
+				0B0C69A2213929B0001434B4 /* ViewController.m */,
+				0B0C69A4213929B0001434B4 /* Main.storyboard */,
+				0B0C69A7213929B2001434B4 /* Assets.xcassets */,
+				0B0C69A9213929B2001434B4 /* LaunchScreen.storyboard */,
+				0B0C69AC213929B2001434B4 /* Info.plist */,
+				0B0C69AD213929B2001434B4 /* main.m */,
+			);
+			path = Log;
+			sourceTree = "<group>";
+		};
+		0B0C69B421392A13001434B4 /* Log_BeforeiOS10 */ = {
+			isa = PBXGroup;
+			children = (
+				0B0C69E421397EAF001434B4 /* WebServer */,
+				0B0C69B821392C6B001434B4 /* NSLog_In_iPhone.jpg */,
+				0B0C69B521392A53001434B4 /* SystemLog.h */,
+				0B0C69B621392A53001434B4 /* SystemLog.m */,
+			);
+			path = Log_BeforeiOS10;
+			sourceTree = "<group>";
+		};
+		0B0C69BA21397C57001434B4 /* GCDWebServer */ = {
+			isa = PBXGroup;
+			children = (
+				0B0C69DF21397C91001434B4 /* GCDWebServerDataResponse.h */,
+				0B0C69DE21397C91001434B4 /* GCDWebServerDataResponse.m */,
+				0B0C69D821397C91001434B4 /* GCDWebServerErrorResponse.h */,
+				0B0C69DD21397C91001434B4 /* GCDWebServerErrorResponse.m */,
+				0B0C69DA21397C91001434B4 /* GCDWebServerFileResponse.h */,
+				0B0C69DB21397C91001434B4 /* GCDWebServerFileResponse.m */,
+				0B0C69DC21397C91001434B4 /* GCDWebServerStreamedResponse.h */,
+				0B0C69D921397C91001434B4 /* GCDWebServerStreamedResponse.m */,
+				0B0C69CE21397C89001434B4 /* GCDWebServerDataRequest.h */,
+				0B0C69CC21397C89001434B4 /* GCDWebServerDataRequest.m */,
+				0B0C69CF21397C89001434B4 /* GCDWebServerFileRequest.h */,
+				0B0C69D021397C89001434B4 /* GCDWebServerFileRequest.m */,
+				0B0C69D121397C89001434B4 /* GCDWebServerMultiPartFormRequest.h */,
+				0B0C69D221397C89001434B4 /* GCDWebServerMultiPartFormRequest.m */,
+				0B0C69CD21397C89001434B4 /* GCDWebServerURLEncodedFormRequest.h */,
+				0B0C69D321397C8A001434B4 /* GCDWebServerURLEncodedFormRequest.m */,
+				0B0C69C121397C81001434B4 /* GCDWebServer.h */,
+				0B0C69C421397C81001434B4 /* GCDWebServer.m */,
+				0B0C69C321397C81001434B4 /* GCDWebServerConnection.h */,
+				0B0C69C521397C81001434B4 /* GCDWebServerConnection.m */,
+				0B0C69C621397C81001434B4 /* GCDWebServerFunctions.h */,
+				0B0C69C021397C81001434B4 /* GCDWebServerFunctions.m */,
+				0B0C69BD21397C80001434B4 /* GCDWebServerHTTPStatusCodes.h */,
+				0B0C69BB21397C80001434B4 /* GCDWebServerPrivate.h */,
+				0B0C69BC21397C80001434B4 /* GCDWebServerRequest.h */,
+				0B0C69C221397C81001434B4 /* GCDWebServerRequest.m */,
+				0B0C69BE21397C81001434B4 /* GCDWebServerResponse.h */,
+				0B0C69BF21397C81001434B4 /* GCDWebServerResponse.m */,
+			);
+			path = GCDWebServer;
+			sourceTree = "<group>";
+		};
+		0B0C69E421397EAF001434B4 /* WebServer */ = {
+			isa = PBXGroup;
+			children = (
+				0B0C69E521397EC8001434B4 /* HttpServerLogger.h */,
+				0B0C69E621397EC8001434B4 /* HttpServerLogger.m */,
+			);
+			path = WebServer;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0B0C699A213929B0001434B4 /* Log */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0B0C69B1213929B2001434B4 /* Build configuration list for PBXNativeTarget "Log" */;
+			buildPhases = (
+				0B0C6997213929B0001434B4 /* Sources */,
+				0B0C6998213929B0001434B4 /* Frameworks */,
+				0B0C6999213929B0001434B4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Log;
+			productName = Log;
+			productReference = 0B0C699B213929B0001434B4 /* Log.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0B0C6993213929B0001434B4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = L;
+				TargetAttributes = {
+					0B0C699A213929B0001434B4 = {
+						CreatedOnToolsVersion = 9.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 0B0C6996213929B0001434B4 /* Build configuration list for PBXProject "Log" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0B0C6992213929B0001434B4;
+			productRefGroup = 0B0C699C213929B0001434B4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0B0C699A213929B0001434B4 /* Log */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0B0C6999213929B0001434B4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B0C69AB213929B2001434B4 /* LaunchScreen.storyboard in Resources */,
+				0B0C69B921392C6B001434B4 /* NSLog_In_iPhone.jpg in Resources */,
+				0B0C69A8213929B2001434B4 /* Assets.xcassets in Resources */,
+				0B0C69A6213929B0001434B4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0B0C6997213929B0001434B4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B0C69A3213929B0001434B4 /* ViewController.m in Sources */,
+				0B0C69D521397C8A001434B4 /* GCDWebServerFileRequest.m in Sources */,
+				0B0C69E221397C92001434B4 /* GCDWebServerErrorResponse.m in Sources */,
+				0B0C69B721392A53001434B4 /* SystemLog.m in Sources */,
+				0B0C69D721397C8A001434B4 /* GCDWebServerURLEncodedFormRequest.m in Sources */,
+				0B0C69E121397C92001434B4 /* GCDWebServerFileResponse.m in Sources */,
+				0B0C69E021397C92001434B4 /* GCDWebServerStreamedResponse.m in Sources */,
+				0B0C69D421397C8A001434B4 /* GCDWebServerDataRequest.m in Sources */,
+				0B0C69C821397C81001434B4 /* GCDWebServerFunctions.m in Sources */,
+				0B0C69C721397C81001434B4 /* GCDWebServerResponse.m in Sources */,
+				0B0C69E721397EC8001434B4 /* HttpServerLogger.m in Sources */,
+				0B0C69CA21397C81001434B4 /* GCDWebServer.m in Sources */,
+				0B0C69D621397C8A001434B4 /* GCDWebServerMultiPartFormRequest.m in Sources */,
+				0B0C69AE213929B2001434B4 /* main.m in Sources */,
+				0B0C69C921397C81001434B4 /* GCDWebServerRequest.m in Sources */,
+				0B0C69A0213929B0001434B4 /* AppDelegate.m in Sources */,
+				0B0C69CB21397C81001434B4 /* GCDWebServerConnection.m in Sources */,
+				0B0C69E321397C92001434B4 /* GCDWebServerDataResponse.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0B0C69A4213929B0001434B4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0B0C69A5213929B0001434B4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0B0C69A9213929B2001434B4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0B0C69AA213929B2001434B4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0B0C69AF213929B2001434B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0B0C69B0213929B2001434B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0B0C69B2213929B2001434B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ABTEC64VM5;
+				INFOPLIST_FILE = Log/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.bestidear.Log;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0B0C69B3213929B2001434B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ABTEC64VM5;
+				INFOPLIST_FILE = Log/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.bestidear.Log;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0B0C6996213929B0001434B4 /* Build configuration list for PBXProject "Log" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0B0C69AF213929B2001434B4 /* Debug */,
+				0B0C69B0213929B2001434B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0B0C69B1213929B2001434B4 /* Build configuration list for PBXNativeTarget "Log" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0B0C69B2213929B2001434B4 /* Debug */,
+				0B0C69B3213929B2001434B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0B0C6993213929B0001434B4 /* Project object */;
+}
