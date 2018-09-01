@@ -7,7 +7,10 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "GCDAsyncUdpSocket.h"
 
 @interface SocketServer : NSObject
+
+- (void)start;
 
 @end

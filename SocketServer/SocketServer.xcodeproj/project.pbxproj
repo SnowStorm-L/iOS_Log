@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		0BA23A58213A060300AA2D3E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BA23A57213A060300AA2D3E /* main.m */; };
+		0BA23A63213A065100AA2D3E /* GCDAsyncUdpSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BA23A60213A065100AA2D3E /* GCDAsyncUdpSocket.m */; };
+		0BA23A64213A065100AA2D3E /* GCDAsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BA23A61213A065100AA2D3E /* GCDAsyncSocket.m */; };
+		0BA23A67213A067800AA2D3E /* SocketServer.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BA23A66213A067800AA2D3E /* SocketServer.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +28,12 @@
 /* Begin PBXFileReference section */
 		0BA23A54213A060300AA2D3E /* SocketServer */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SocketServer; sourceTree = BUILT_PRODUCTS_DIR; };
 		0BA23A57213A060300AA2D3E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0BA23A5F213A065100AA2D3E /* GCDAsyncUdpSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDAsyncUdpSocket.h; sourceTree = "<group>"; };
+		0BA23A60213A065100AA2D3E /* GCDAsyncUdpSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDAsyncUdpSocket.m; sourceTree = "<group>"; };
+		0BA23A61213A065100AA2D3E /* GCDAsyncSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDAsyncSocket.m; sourceTree = "<group>"; };
+		0BA23A62213A065100AA2D3E /* GCDAsyncSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDAsyncSocket.h; sourceTree = "<group>"; };
+		0BA23A65213A067800AA2D3E /* SocketServer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SocketServer.h; sourceTree = "<group>"; };
+		0BA23A66213A067800AA2D3E /* SocketServer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SocketServer.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,9 +66,23 @@
 		0BA23A56213A060300AA2D3E /* SocketServer */ = {
 			isa = PBXGroup;
 			children = (
+				0BA23A5E213A063E00AA2D3E /* GCD */,
 				0BA23A57213A060300AA2D3E /* main.m */,
+				0BA23A65213A067800AA2D3E /* SocketServer.h */,
+				0BA23A66213A067800AA2D3E /* SocketServer.m */,
 			);
 			path = SocketServer;
+			sourceTree = "<group>";
+		};
+		0BA23A5E213A063E00AA2D3E /* GCD */ = {
+			isa = PBXGroup;
+			children = (
+				0BA23A62213A065100AA2D3E /* GCDAsyncSocket.h */,
+				0BA23A61213A065100AA2D3E /* GCDAsyncSocket.m */,
+				0BA23A5F213A065100AA2D3E /* GCDAsyncUdpSocket.h */,
+				0BA23A60213A065100AA2D3E /* GCDAsyncUdpSocket.m */,
+			);
+			path = GCD;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -118,6 +141,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0BA23A64213A065100AA2D3E /* GCDAsyncSocket.m in Sources */,
+				0BA23A67213A067800AA2D3E /* SocketServer.m in Sources */,
+				0BA23A63213A065100AA2D3E /* GCDAsyncUdpSocket.m in Sources */,
 				0BA23A58213A060300AA2D3E /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

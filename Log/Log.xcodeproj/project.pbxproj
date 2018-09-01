@@ -29,6 +29,7 @@
 		0B0C69E221397C92001434B4 /* GCDWebServerErrorResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B0C69DD21397C91001434B4 /* GCDWebServerErrorResponse.m */; };
 		0B0C69E321397C92001434B4 /* GCDWebServerDataResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B0C69DE21397C91001434B4 /* GCDWebServerDataResponse.m */; };
 		0B0C69E721397EC8001434B4 /* HttpServerLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B0C69E621397EC8001434B4 /* HttpServerLogger.m */; };
+		0BA23A6B213A077F00AA2D3E /* SocketLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BA23A6A213A077F00AA2D3E /* SocketLog.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -75,6 +76,8 @@
 		0B0C69DF21397C91001434B4 /* GCDWebServerDataResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDWebServerDataResponse.h; sourceTree = "<group>"; };
 		0B0C69E521397EC8001434B4 /* HttpServerLogger.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HttpServerLogger.h; sourceTree = "<group>"; };
 		0B0C69E621397EC8001434B4 /* HttpServerLogger.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HttpServerLogger.m; sourceTree = "<group>"; };
+		0BA23A69213A077F00AA2D3E /* SocketLog.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SocketLog.h; sourceTree = "<group>"; };
+		0BA23A6A213A077F00AA2D3E /* SocketLog.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SocketLog.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,6 +128,7 @@
 		0B0C69B421392A13001434B4 /* Log_BeforeiOS10 */ = {
 			isa = PBXGroup;
 			children = (
+				0BA23A68213A075100AA2D3E /* SocketLog */,
 				0B0C69E421397EAF001434B4 /* WebServer */,
 				0B0C69B821392C6B001434B4 /* NSLog_In_iPhone.jpg */,
 				0B0C69B521392A53001434B4 /* SystemLog.h */,
@@ -175,6 +179,15 @@
 				0B0C69E621397EC8001434B4 /* HttpServerLogger.m */,
 			);
 			path = WebServer;
+			sourceTree = "<group>";
+		};
+		0BA23A68213A075100AA2D3E /* SocketLog */ = {
+			isa = PBXGroup;
+			children = (
+				0BA23A69213A077F00AA2D3E /* SocketLog.h */,
+				0BA23A6A213A077F00AA2D3E /* SocketLog.m */,
+			);
+			path = SocketLog;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -248,6 +261,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0BA23A6B213A077F00AA2D3E /* SocketLog.m in Sources */,
 				0B0C69A3213929B0001434B4 /* ViewController.m in Sources */,
 				0B0C69D521397C8A001434B4 /* GCDWebServerFileRequest.m in Sources */,
 				0B0C69E221397C92001434B4 /* GCDWebServerErrorResponse.m in Sources */,

@@ -7,7 +7,11 @@
 //
 
 #import "ViewController.h"
-#import "HttpServerLogger.h"
+//#import "HttpServerLogger.h"
+
+// 导入即可使用, 把NSLog的内容通过udp socket发送出去
+// 接收的服务端 请看 SocketServer 工程
+//#import "SocketLog.h"
 
 @interface ViewController ()
 
@@ -19,7 +23,7 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
     
-    [HttpServerLogger.shared startServer];
+//    [HttpServerLogger.shared startServer];
 }
 
 - (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {

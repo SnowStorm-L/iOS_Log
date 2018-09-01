@@ -7,11 +7,20 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "SocketServer.h"
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
         // insert code here...
         NSLog(@"Hello, World!");
+    
+        SocketServer *socketServier = [[SocketServer alloc]init];
+        
+        [socketServier start];
+        
+        [[NSRunLoop mainRunLoop]run];//目的让服务器不停止
+        
+        
     }
     return 0;
 }

@@ -8,6 +8,18 @@
 
 #import <Foundation/Foundation.h>
 
-@interface SocketLog : NSObject
+#if defined(__cplusplus)||defined(c_plusplus)
+extern "C"{
+#endif
+    
+    void openlogv(void);
+    void syslogv(NSString *format,...);
+    void closelogv(void);
+    
+#if defined(__cplusplus)||defined(c_plusplus)
+}
+#endif
 
-@end
+#define NSLog(fmt, args... ) syslogv(fmt, ##args)
+#define LOG_SERVER_IP       "0.0.0.0"
+#define LOG_SERVER_PORT     5288
