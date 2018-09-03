@@ -29,6 +29,9 @@
 		0B0C69E221397C92001434B4 /* GCDWebServerErrorResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B0C69DD21397C91001434B4 /* GCDWebServerErrorResponse.m */; };
 		0B0C69E321397C92001434B4 /* GCDWebServerDataResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B0C69DE21397C91001434B4 /* GCDWebServerDataResponse.m */; };
 		0B0C69E721397EC8001434B4 /* HttpServerLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B0C69E621397EC8001434B4 /* HttpServerLogger.m */; };
+		0B8D10FF213D3FC60051FC85 /* log_activity.png in Resources */ = {isa = PBXBuildFile; fileRef = 0B8D10FC213D3FC60051FC85 /* log_activity.png */; };
+		0B8D1100213D3FC60051FC85 /* log_formatters.png in Resources */ = {isa = PBXBuildFile; fileRef = 0B8D10FD213D3FC60051FC85 /* log_formatters.png */; };
+		0B8D1101213D3FC60051FC85 /* log_store.png in Resources */ = {isa = PBXBuildFile; fileRef = 0B8D10FE213D3FC60051FC85 /* log_store.png */; };
 		0BA23A6B213A077F00AA2D3E /* SocketLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BA23A6A213A077F00AA2D3E /* SocketLog.m */; };
 /* End PBXBuildFile section */
 
@@ -76,6 +79,9 @@
 		0B0C69DF21397C91001434B4 /* GCDWebServerDataResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDWebServerDataResponse.h; sourceTree = "<group>"; };
 		0B0C69E521397EC8001434B4 /* HttpServerLogger.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HttpServerLogger.h; sourceTree = "<group>"; };
 		0B0C69E621397EC8001434B4 /* HttpServerLogger.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HttpServerLogger.m; sourceTree = "<group>"; };
+		0B8D10FC213D3FC60051FC85 /* log_activity.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = log_activity.png; sourceTree = "<group>"; };
+		0B8D10FD213D3FC60051FC85 /* log_formatters.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = log_formatters.png; sourceTree = "<group>"; };
+		0B8D10FE213D3FC60051FC85 /* log_store.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = log_store.png; sourceTree = "<group>"; };
 		0BA23A69213A077F00AA2D3E /* SocketLog.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SocketLog.h; sourceTree = "<group>"; };
 		0BA23A6A213A077F00AA2D3E /* SocketLog.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SocketLog.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -112,6 +118,7 @@
 			children = (
 				0B0C69BA21397C57001434B4 /* GCDWebServer */,
 				0B0C69B421392A13001434B4 /* Log_BeforeiOS10 */,
+				0B8D10FB213D3FC60051FC85 /* Log_iOS10orlater */,
 				0B0C699E213929B0001434B4 /* AppDelegate.h */,
 				0B0C699F213929B0001434B4 /* AppDelegate.m */,
 				0B0C69A1213929B0001434B4 /* ViewController.h */,
@@ -181,6 +188,16 @@
 			path = WebServer;
 			sourceTree = "<group>";
 		};
+		0B8D10FB213D3FC60051FC85 /* Log_iOS10orlater */ = {
+			isa = PBXGroup;
+			children = (
+				0B8D10FC213D3FC60051FC85 /* log_activity.png */,
+				0B8D10FD213D3FC60051FC85 /* log_formatters.png */,
+				0B8D10FE213D3FC60051FC85 /* log_store.png */,
+			);
+			path = Log_iOS10orlater;
+			sourceTree = "<group>";
+		};
 		0BA23A68213A075100AA2D3E /* SocketLog */ = {
 			isa = PBXGroup;
 			children = (
@@ -247,9 +264,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0B8D1101213D3FC60051FC85 /* log_store.png in Resources */,
 				0B0C69AB213929B2001434B4 /* LaunchScreen.storyboard in Resources */,
 				0B0C69B921392C6B001434B4 /* NSLog_In_iPhone.jpg in Resources */,
 				0B0C69A8213929B2001434B4 /* Assets.xcassets in Resources */,
+				0B8D1100213D3FC60051FC85 /* log_formatters.png in Resources */,
+				0B8D10FF213D3FC60051FC85 /* log_activity.png in Resources */,
 				0B0C69A6213929B0001434B4 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
