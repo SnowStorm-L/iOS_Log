@@ -33,6 +33,7 @@
 		0B8D1100213D3FC60051FC85 /* log_formatters.png in Resources */ = {isa = PBXBuildFile; fileRef = 0B8D10FD213D3FC60051FC85 /* log_formatters.png */; };
 		0B8D1101213D3FC60051FC85 /* log_store.png in Resources */ = {isa = PBXBuildFile; fileRef = 0B8D10FE213D3FC60051FC85 /* log_store.png */; };
 		0BA23A6B213A077F00AA2D3E /* SocketLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BA23A6A213A077F00AA2D3E /* SocketLog.m */; };
+		0BD16ACD213FD22D003E4F4F /* OSLogAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BD16ACC213FD22D003E4F4F /* OSLogAPI.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -84,6 +85,8 @@
 		0B8D10FE213D3FC60051FC85 /* log_store.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = log_store.png; sourceTree = "<group>"; };
 		0BA23A69213A077F00AA2D3E /* SocketLog.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SocketLog.h; sourceTree = "<group>"; };
 		0BA23A6A213A077F00AA2D3E /* SocketLog.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SocketLog.m; sourceTree = "<group>"; };
+		0BD16ACB213FD22D003E4F4F /* OSLogAPI.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OSLogAPI.h; sourceTree = "<group>"; };
+		0BD16ACC213FD22D003E4F4F /* OSLogAPI.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OSLogAPI.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -194,6 +197,8 @@
 				0B8D10FC213D3FC60051FC85 /* log_activity.png */,
 				0B8D10FD213D3FC60051FC85 /* log_formatters.png */,
 				0B8D10FE213D3FC60051FC85 /* log_store.png */,
+				0BD16ACB213FD22D003E4F4F /* OSLogAPI.h */,
+				0BD16ACC213FD22D003E4F4F /* OSLogAPI.m */,
 			);
 			path = Log_iOS10orlater;
 			sourceTree = "<group>";
@@ -296,6 +301,7 @@
 				0B0C69CA21397C81001434B4 /* GCDWebServer.m in Sources */,
 				0B0C69D621397C8A001434B4 /* GCDWebServerMultiPartFormRequest.m in Sources */,
 				0B0C69AE213929B2001434B4 /* main.m in Sources */,
+				0BD16ACD213FD22D003E4F4F /* OSLogAPI.m in Sources */,
 				0B0C69C921397C81001434B4 /* GCDWebServerRequest.m in Sources */,
 				0B0C69A0213929B0001434B4 /* AppDelegate.m in Sources */,
 				0B0C69CB21397C81001434B4 /* GCDWebServerConnection.m in Sources */,
@@ -376,7 +382,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -428,7 +434,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -442,7 +448,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = ABTEC64VM5;
 				INFOPLIST_FILE = Log/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -460,7 +466,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = ABTEC64VM5;
 				INFOPLIST_FILE = Log/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
